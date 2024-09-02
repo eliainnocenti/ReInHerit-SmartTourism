@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "org.tensorflow.lite.examples.classification.tflite",
+  "applicationId": "org.tensorflow.lite.examples.detection.tflite",
   "variantName": "debug",
   "elements": [
     {

@@ -1,0 +1,44 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: x86_64",
+    "file_": "/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_support/src/main/cpp/source/CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1408784912
+  },
+  {
+    "level_": 0,
+    "message_": "JSON \u0027/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_support/.cxx/Debug/321v64c2/x86_64/android_gradle_build.json\u0027 was up-to-date",
+    "file_": "/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_support/src/main/cpp/source/CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 175628721
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_support/src/main/cpp/source/CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -983568020
+  }
+]

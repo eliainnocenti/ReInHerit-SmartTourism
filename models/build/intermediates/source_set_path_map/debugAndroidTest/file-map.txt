@@ -1,0 +1,8 @@
+org.tensorflow.lite.examples.detection.models.test.models-androidTest-0 /Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/models/build/generated/res/resValues/androidTest/debug
+org.tensorflow.lite.examples.detection.models.test.models-androidTest-1 /Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/models/build/generated/res/rs/androidTest/debug
+org.tensorflow.lite.examples.detection.models.test.models-mergeDebugAndroidTestResources-2 /Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/models/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+org.tensorflow.lite.examples.detection.models.test.models-mergeDebugAndroidTestResources-3 /Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/models/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+org.tensorflow.lite.examples.detection.models.test.models-merged_res-4 /Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/models/build/intermediates/merged_res/debugAndroidTest
+org.tensorflow.lite.examples.detection.models.test.models-packaged_res-5 /Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/models/build/intermediates/packaged_res/debug
+org.tensorflow.lite.examples.detection.models.test.models-androidTest-6 /Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/models/src/androidTest/res
+org.tensorflow.lite.examples.detection.models.test.models-androidTestDebug-7 /Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/models/src/androidTestDebug/res

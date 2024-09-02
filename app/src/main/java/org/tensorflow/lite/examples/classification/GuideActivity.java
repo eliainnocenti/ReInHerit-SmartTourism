@@ -20,6 +20,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
+import org.tensorflow.lite.examples.detection.R;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;

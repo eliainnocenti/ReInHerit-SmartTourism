@@ -78,6 +78,7 @@ import org.tensorflow.lite.examples.classification.tflite.Classifier.Language;
 import org.tensorflow.lite.examples.classification.tflite.Classifier.Device;
 import org.tensorflow.lite.examples.classification.tflite.Classifier.Model;
 import org.tensorflow.lite.examples.classification.tflite.Classifier.Recognition;
+import org.tensorflow.lite.examples.detection.R;
 
 public abstract class CameraActivity extends AppCompatActivity
         implements OnImageAvailableListener,

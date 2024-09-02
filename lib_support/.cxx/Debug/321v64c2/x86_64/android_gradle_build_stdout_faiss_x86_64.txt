@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_support/.cxx/Debug/321v64c2/x86_64'
+ninja: no work to do.

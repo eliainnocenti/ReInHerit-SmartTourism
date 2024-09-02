@@ -63,6 +63,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.tensorflow.lite.examples.classification.customview.AutoFitTextureView;
 import org.tensorflow.lite.examples.classification.env.Logger;
+import org.tensorflow.lite.examples.detection.R;
 
 /**
  * Camera Connection Fragment that captures images from camera.

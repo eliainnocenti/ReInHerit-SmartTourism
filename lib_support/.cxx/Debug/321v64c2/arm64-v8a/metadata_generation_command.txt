@@ -1,0 +1,23 @@
+                    Executable : /Users/eliainnocenti/Library/Android/sdk/cmake/3.18.1/bin/cmake
+arguments : 
+-H/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_support/src/main/cpp/source
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=arm64-v8a
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DANDROID_NDK=/Users/eliainnocenti/Library/Android/sdk/ndk/21.4.7075529
+-DCMAKE_ANDROID_NDK=/Users/eliainnocenti/Library/Android/sdk/ndk/21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=/Users/eliainnocenti/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/eliainnocenti/Library/Android/sdk/cmake/3.18.1/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_support/build/intermediates/cxx/Debug/321v64c2/obj/arm64-v8a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_support/build/intermediates/cxx/Debug/321v64c2/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-B/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_support/.cxx/Debug/321v64c2/arm64-v8a
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

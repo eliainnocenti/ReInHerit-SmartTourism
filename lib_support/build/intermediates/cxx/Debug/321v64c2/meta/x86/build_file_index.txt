@@ -1,0 +1,1 @@
+/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_support/src/main/cpp/source/CMakeLists.txt

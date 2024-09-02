@@ -1,0 +1,7 @@
+Executable : /Users/eliainnocenti/Library/Android/sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_support/.cxx/Debug/321v64c2/x86
+faiss
+jvmArgs : 
+

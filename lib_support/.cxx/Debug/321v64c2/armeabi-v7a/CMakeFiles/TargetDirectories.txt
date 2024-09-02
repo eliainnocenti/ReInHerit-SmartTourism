@@ -1,0 +1,3 @@
+/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_support/.cxx/Debug/321v64c2/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_support/.cxx/Debug/321v64c2/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_support/.cxx/Debug/321v64c2/armeabi-v7a/CMakeFiles/faiss.dir
