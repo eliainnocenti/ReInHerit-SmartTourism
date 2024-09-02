@@ -15,3 +15,10 @@
 /app/src/main/res/raw/
 /Python/dataParisTotal/
 /Python/dataParis/
+
+.gitignore
+.gitattributes
+lib_task_api/build/outputs/apk/androidTest/debug/lib_task_api-debug-androidTest.apk
+models/build/outputs/apk/androidTest/debug/models-debug-androidTest.apk
+lib_support/build/outputs/apk/androidTest/debug/lib_support-debug-androidTest.apk
+models/build/outputs/aar/models-debug.aar
