@@ -36,8 +36,10 @@ import org.tensorflow.lite.examples.detection.tflite.Detector.Model;
 
 public class DetectorActivity extends CameraActivity implements OnImageAvailableListener {
     private static final Logger LOGGER = new Logger();
+
     //private static final Size DESIRED_PREVIEW_SIZE = new Size(640, 480);
     private static final Size DESIRED_PREVIEW_SIZE = new Size(384, 384);
+
     private static final float TEXT_SIZE_DIP = 10;
 
     private Bitmap rgbFrameBitmap = null;
@@ -45,6 +47,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
     private Integer sensorOrientation;
     private Detector detector;
     private BorderedText borderedText;
+
     /**
      * Input image size of the model along x axis.
      */
@@ -63,7 +66,6 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
     protected Size getDesiredPreviewFrameSize() {
         return DESIRED_PREVIEW_SIZE;
     }
-
 
     @Override
     public void onPreviewSizeChosen(final Size size, final int rotation) {
@@ -88,8 +90,8 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
         LOGGER.i("Initializing at size %dx%d", previewWidth, previewHeight); // 640 X 480
 
         //rgbFrameBitmap = Bitmap.createBitmap(previewWidth, previewHeight, Config.ARGB_8888);
-        rgbFrameBitmap = Bitmap.createBitmap(384, 384, Config.ARGB_8888);
         //rgbFrameBitmap = Bitmap.createBitmap(imageSizeX, imageSizeY, Config.ARGB_8888);
+        rgbFrameBitmap = Bitmap.createBitmap(384, 384, Config.ARGB_8888);
     }
 
     // DEBUG
@@ -117,16 +119,16 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
     @Override
     protected void processImage() {
 
-        LOGGER.d("processImage: Inizio elaborazione immagine");
+        LOGGER.d("processImage: Start image processing");
 
         // Ensure rgbFrameBitmap is initialized
         if (rgbFrameBitmap == null) {
-            LOGGER.d("processImage: Inizializzazione rgbFrameBitmap");
+            LOGGER.d("processImage: rgbFrameBitmap initialization");
             rgbFrameBitmap = Bitmap.createBitmap(previewWidth, previewHeight, Bitmap.Config.ARGB_8888);
         }
 
         int[] rgbBytes = getRgbBytes();
-        LOGGER.d("processImage: Lunghezza array rgbBytes: " + rgbBytes.length);
+        LOGGER.d("processImage: rgbBytes array length : " + rgbBytes.length);
 
         try {
             // Make sure these values don't exceed the bitmap's dimensions
@@ -141,7 +143,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
         }
 
         final int cropSize = Math.min(previewWidth, previewHeight);
-        LOGGER.d("processImage: Dimensione crop: " + cropSize);
+        LOGGER.d("processImage: Crop dimension: " + cropSize);
 
         // DEBUG
         //Bitmap bitmap_test1 = BitmapFactory.decodeResource(getResources(), R.drawable.basilicasantacroce);
@@ -156,38 +158,36 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
                     public void run() {
                         if (detector != null) {
 
-                            /*
+                            /* // DEBUG
                             frameCount++;
                             LOGGER.e("processImage: Frame count: " + frameCount + " - SAVE_FRAME_INTERVAL: " + SAVE_FRAME_INTERVAL + " - %: " + (frameCount % SAVE_FRAME_INTERVAL));
                             if (frameCount % SAVE_FRAME_INTERVAL == 0 && savedFramesCount < MAX_FRAMES_TO_SAVE) {
                                 saveBitmapToFile(rgbFrameBitmap, "frame_" + frameCount + ".png");
                                 savedFramesCount++;
-                                LOGGER.e("processImage: Frame salvato" + frameCount + ".png");
+                                LOGGER.e("processImage: Saved frame" + frameCount + ".png");
                             }
                             */
 
                             // Resize rgbFrameBitmap to match the model input size
-                            LOGGER.d("processImage: Inizio ridimensionamento bitmap");
+                            LOGGER.d("processImage: Start bitmap resizingp");
                             //Bitmap resizedBitmap = Bitmap.createScaledBitmap(rgbFrameBitmap, imageSizeX, imageSizeY, true);
                             //Bitmap resizedBitmap = Bitmap.createScaledBitmap(rgbFrameBitmap, 384, 384, true);
 
                             // DEBUG
                             Bitmap resizedBitmap = Bitmap.createScaledBitmap(bitmap_test2, 384, 384, true);
 
-                            LOGGER.d("processImage: Bitmap ridimensionato a 384x384");
+                            LOGGER.d("processImage: Bitmap resized to 384x384");
 
                             LOGGER.d("Camera Image Dimensions: " + previewWidth + "x" + previewHeight);
                             LOGGER.d("Resized Image Dimensions: " + resizedBitmap.getWidth() + "x" + resizedBitmap.getHeight());
                             LOGGER.d("Sensor Orientation: " + sensorOrientation);
 
                             final long startTime = SystemClock.uptimeMillis();
-                            LOGGER.d("processImage: Inizio riconoscimento immagine");
+                            LOGGER.d("processImage: Start image recognition");
                             final List<Detector.Detection> results = detector.recognizeImage(resizedBitmap, sensorOrientation);
                             lastProcessingTimeMs = SystemClock.uptimeMillis() - startTime;
-                            LOGGER.d("processImage: Tempo di elaborazione: " + lastProcessingTimeMs + "ms");
-                            LOGGER.d("processImage: Numero di rilevamenti: " + results.size());
-
-                            //LOGGER.v("Detect: %s", results);
+                            LOGGER.d("processImage: Processing time: " + lastProcessingTimeMs + "ms");
+                            LOGGER.d("processImage: Number of detections: " + results.size());
 
                             runOnUiThread(
                                     new Runnable() {
@@ -199,15 +199,15 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
                                             showCameraResolution(cropSize + "x" + cropSize);
                                             showRotationInfo(String.valueOf(sensorOrientation));
                                             showInference(lastProcessingTimeMs + "ms");
-                                            LOGGER.d("processImage: Risultati mostrati nell'UI");
+                                            LOGGER.d("processImage: Results shown in UI");
                                         }
                                     });
 
                         } else {
-                            LOGGER.w("processImage: Detector è null");
+                            LOGGER.w("processImage: Detector is null");
                         }
                         readyForNextImage();
-                        LOGGER.d("processImage: Pronto per la prossima immagine");
+                        LOGGER.d("processImage: Ready for next image");
                     }
                 });
     }

@@ -16,6 +16,7 @@
 /Python/dataParisTotal/
 /Python/dataParis/
 
+# TODO: check and update
 .gitignore
 .gitattributes
 lib_task_api/build/outputs/apk/androidTest/debug/lib_task_api-debug-androidTest.apk
