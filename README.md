@@ -19,6 +19,21 @@
   </p>
 </div>
 
+<!-- @eliainnocenti -->
+
+## About The Project
+
+This fork is a project for my Bachelor's Degree in Computer Engineering at the University of Florence. 
+The project is a mobile application that uses object detection to recognize monuments and provide information about them. 
+The application is based on the original project [SmartTourism](https://github.com/mbertini/ReInHerit-SmartTourism) 
+(there is also a second version of the application [SmartTourism v2](https://github.com/lorenzo-massa/SmartTourism-Image-Recognition-Android)).
+The main difference between the original project and this fork is the use of a different computer vision technique, 
+in fact the original project uses image retrieval while this fork uses object detection.
+
+<details>
+
+<summary> Original SmartTourism README.md </summary> <!-- TODO: make prettier -->
+
 ## Getting Started
 <div align="center">
   <img src="images/screen1.png" alt="Logo" width="200" height="380"> &nbsp; &nbsp; &nbsp; <img src="images/screen2.png" alt="Logo" width="200" height="380"> &nbsp; &nbsp; &nbsp; <img src="images/screen3.png" alt="Logo" width="200" height="380">
@@ -32,7 +47,7 @@ If you wanto to generate another APK file take a look on the following guide: ht
 ### Guide
 The repository consists of two parts:
 * Python
-* Android
+  * Android
 
 The python part is used to generate sqlite files from an image dataset. You should use and edit this part only if you want to use another neural network or image dataset.
 The android application is ready to use and you should change it just to add files to the monuments guides.
@@ -43,10 +58,10 @@ You will find all the instuction you need just below.
 
 Python library required:
 * numpy
-* cv2
-* tflite
-* faiss (Anaconda required)
-* sklearn
+  * cv2
+  * tflite
+  * faiss (Anaconda required)
+  * sklearn
 
 ## Database creation
 The repository contains the file `Python/build_sqlite.py` which must be executed by adding the argument `-i` or `--images` indicating the path to the dataset folder as in the following example:
@@ -133,7 +148,7 @@ Run 'build_sqlite.py'.
 Go to `lib_support\src\main\java\org\tensorflow\lite\examples\classification\tflite`.
 1) Create a class that extends the `Classifier` class with a name that indicates the new neural network.
 TIP: There is a template class named `ClassifierNewNeuralNetworkClass`. Rename the class and change the `getModelPath()` method with the filename of the new neural network.
-2) Modify the file `Classifier.java` by adding a name indicating the new model as in the example:
+   2) Modify the file `Classifier.java` by adding a name indicating the new model as in the example:
 
 ```java
 /** The model type used for classification. */
@@ -202,6 +217,4 @@ Project Link: [https://github.com/lorenzo-massa/SmartTourism](https://github.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-
+</details>
