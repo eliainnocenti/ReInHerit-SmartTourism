@@ -21,6 +21,25 @@
 
 <!-- @eliainnocenti -->
 
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#original-project">Original Project</a></li>
+        <li><a href="#key-features">Key Features</a></li>
+      </ul>
+    </li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 This fork is a project for my Bachelor's Degree in Computer Engineering at the University of Florence. 
@@ -30,9 +49,18 @@ The application is based on the original project [SmartTourism](https://github.c
 The main difference between the original project and this fork is the use of a different computer vision technique, 
 in fact the original project uses image retrieval while this fork uses object detection.
 
-<details>
+### Key Changes
 
-<summary> Original SmartTourism README.md </summary> <!-- TODO: make prettier -->
+- **Object Detection:** Replaced the original image retrieval method with object detection, which is believed to perform better in certain scenarios.
+- **Custom TFLite Model:** The object detection model is a TensorFlow Lite model trained specifically for this application. The model was trained using a dataset that I personally curated, [Florence1k](https://github.com/eliainnocenti/Florence1k).
+- **MediaPipe Integration:** Utilized MediaPipe for training and model optimization to enhance real-time performance on Android devices.
+
+### Original Project
+<details>
+<!--<summary style="font-size: 1.3em; font-weight: bold;"> Original SmartTourism README.md </summary>-->
+<summary>Click to toggle the original README</summary>
+
+<!-- ORIGINAL README CONTENT -->
 
 ## Getting Started
 <div align="center">
@@ -218,3 +246,36 @@ Project Link: [https://github.com/lorenzo-massa/SmartTourism](https://github.com
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 </details>
+
+## Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+- Android Studio
+- Android SDK version XYZ
+- TensorFlow Lite Support
+
+### Installation
+
+1. Clone the repo:
+   ```sh
+   git clone https://github.com/eliainnocenti/ReInHerit-SmartTourism
+    ```
+2. Open the project in Android Studio.
+3. Build and run the app on your Android device.
+
+## Usage
+
+The application can be used to recognize monuments using the device's camera. 
+Point the camera at a monument, and the app will attempt to identify it using the custom object detection model.
+
+## Contact
+
+Elia Innocenti - [elia.innocenti@edu.unifi.it](mailto:elia.innocenti@edu.unifi.it)
+
+Project link - [https://github.com/eliainnocenti/ReInHerit-SmartTourism]([https://github.com/eliainnocenti/ReInHerit-SmartTourism]) \
+Original project link - [https://github.com/mbertini/ReInHerit-SmartTourism](https://github.com/mbertini/ReInHerit-SmartTourism)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
