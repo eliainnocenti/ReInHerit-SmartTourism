@@ -275,7 +275,7 @@ Point the camera at a monument, and the app will attempt to identify it using th
 
 Elia Innocenti - [elia.innocenti@edu.unifi.it](mailto:elia.innocenti@edu.unifi.it)
 
-Project link - [https://github.com/eliainnocenti/ReInHerit-SmartTourism]([https://github.com/eliainnocenti/ReInHerit-SmartTourism]) \
-Original project link - [https://github.com/mbertini/ReInHerit-SmartTourism](https://github.com/mbertini/ReInHerit-SmartTourism)
+Project link: [https://github.com/eliainnocenti/ReInHerit-SmartTourism](https://github.com/eliainnocenti/ReInHerit-SmartTourism) \
+Original project link: [https://github.com/mbertini/ReInHerit-SmartTourism](https://github.com/mbertini/ReInHerit-SmartTourism)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
