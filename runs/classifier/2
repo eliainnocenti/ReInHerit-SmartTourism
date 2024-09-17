@@ -1,0 +1,27 @@
+florence_battisterosangiovanni_0097.jpg
+
+2024-09-17 15:26:34.041 16761-16799 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to load the image: 224
+2024-09-17 15:26:34.053 16761-16784 mali_winsys             org....lite.examples.classification  E  Unrecognised Android chroma siting range: [2, 2]. Applying default
+2024-09-17 15:26:34.119 16761-16784 mali_winsys             org....lite.examples.classification  E  Unrecognised Android chroma siting range: [2, 2]. Applying default
+2024-09-17 15:26:34.168 16761-16784 mali_winsys             org....lite.examples.classification  E  Unrecognised Android chroma siting range: [2, 2]. Applying default
+2024-09-17 15:26:34.237 16761-16784 mali_winsys             org....lite.examples.classification  E  Unrecognised Android chroma siting range: [2, 2]. Applying default
+2024-09-17 15:26:34.245 16761-16799 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run model inference: 204
+2024-09-17 15:26:34.301 16761-16784 mali_winsys             org....lite.examples.classification  E  Unrecognised Android chroma siting range: [2, 2]. Applying default
+2024-09-17 15:26:34.564 16761-16799 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run Faiss Search: 318
+2024-09-17 15:26:34.565 16761-16799 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run Post Process: 0
+2024-09-17 15:26:36.042 16761-16761 Choreographer           org....lite.examples.classification  I  Skipped 59 frames!  The application may be doing too much work on its main thread.
+2024-09-17 15:26:36.076 16761-16803 OpenGLRenderer          org....lite.examples.classification  I  Davey! duration=1006ms; Flags=0, FrameTimelineVsyncId=470795, IntendedVsync=11548142715977, Vsync=11549126014815, InputEventId=0, HandleInputStart=11549135803086, AnimationStart=11549135811316, PerformTraversalsStart=11549136313778, DrawStart=11549137571739, FrameDeadline=11548176048725, FrameInterval=11549135637086, FrameStartTime=16666082, SyncQueued=11549137921124, SyncStart=11549138110009, IssueDrawCommandsStart=11549138509470, SwapBuffers=11549142216393, FrameCompleted=11549149192124, DequeueBufferDuration=94923, QueueBufferDuration=936654, GpuCompleted=11549149192124, SwapBuffersCompleted=11549146587239, DisplayPresentTime=0, CommandSubmissionCompleted=11549142216393,
+2024-09-17 15:26:36.078 16761-16799 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to load the image: 30
+2024-09-17 15:26:36.275 16761-16799 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run model inference: 193
+2024-09-17 15:26:36.601 16761-16799 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run Faiss Search: 326
+2024-09-17 15:26:36.602 16761-16799 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run Post Process: 0
+2024-09-17 15:26:38.137 16761-16761 Choreographer           org....lite.examples.classification  I  Skipped 62 frames!  The application may be doing too much work on its main thread.
+2024-09-17 15:26:38.163 16761-16776 OpenGLRenderer          org....lite.examples.classification  I  Davey! duration=1049ms; Flags=0, FrameTimelineVsyncId=471313, IntendedVsync=11550192728667, Vsync=11551226166553, InputEventId=0, HandleInputStart=11551231017584, AnimationStart=11551231137469, PerformTraversalsStart=11551231418315, DrawStart=11551231527969, FrameDeadline=11550226063686, FrameInterval=11551230717930, FrameStartTime=16668353, SyncQueued=11551231786507, SyncStart=11551231945546, IssueDrawCommandsStart=11551232474161, SwapBuffers=11551235852315, FrameCompleted=11551242474661, DequeueBufferDuration=79923, QueueBufferDuration=1056192, GpuCompleted=11551242474661, SwapBuffersCompleted=11551239979315, DisplayPresentTime=11547242835049, CommandSubmissionCompleted=11551235852315,
+2024-09-17 15:26:38.166 16761-16799 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to load the image: 23
+2024-09-17 15:26:38.335 16761-16799 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run model inference: 170
+2024-09-17 15:26:38.640 16761-16799 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run Faiss Search: 305
+2024-09-17 15:26:38.640 16761-16799 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run Post Process: 0
+2024-09-17 15:26:38.645 16761-16761 tensorflow              org....lite.examples.classification  D  CameraActivity: Top 3 Results:
+2024-09-17 15:26:38.645 16761-16761 tensorflow              org....lite.examples.classification  D  CameraActivity: 1. Battistero SanGiovanni: 8.0
+2024-09-17 15:26:38.645 16761-16761 tensorflow              org....lite.examples.classification  D  CameraActivity: 2. Loggia Bigallo: 10.0
+2024-09-17 15:26:38.645 16761-16761 tensorflow              org....lite.examples.classification  D  CameraActivity: 3. Cattedrale Duomo: 10.0

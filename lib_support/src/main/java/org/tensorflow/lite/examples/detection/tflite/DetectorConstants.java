@@ -21,7 +21,7 @@ public class DetectorConstants {
     // TODO: update values
     public static final float[] DETECTION_THRESHOLDS = {
             0.5f, // background // TODO: check
-            0.7f, // santamariadelfiore
+            0.5f, // santamariadelfiore
             0.6f, // battisterosangiovanni
             0.8f, // campanilegiotto
             0.6f, // galleriauffizi

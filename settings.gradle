@@ -1,2 +1,2 @@
-rootProject.name = 'TFLite Image Classification Demo App'
+rootProject.name = 'TFLite Image Detection Demo App'
 include ':app', ':lib_support', ':lib_task_api', ':models'

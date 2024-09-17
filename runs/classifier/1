@@ -1,0 +1,30 @@
+florence_palazzovecchio_0090.jpg
+
+2024-09-17 15:23:56.981 16534-16577 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to load the image: 184
+2024-09-17 15:23:57.003 16534-16561 mali_winsys             org....lite.examples.classification  E  Unrecognised Android chroma siting range: [2, 2]. Applying default
+2024-09-17 15:23:57.054 16534-16561 mali_winsys             org....lite.examples.classification  E  Unrecognised Android chroma siting range: [2, 2]. Applying default
+2024-09-17 15:23:57.119 16534-16561 mali_winsys             org....lite.examples.classification  E  Unrecognised Android chroma siting range: [2, 2]. Applying default
+2024-09-17 15:23:57.168 16534-16561 mali_winsys             org....lite.examples.classification  E  Unrecognised Android chroma siting range: [2, 2]. Applying default
+2024-09-17 15:23:57.177 16534-16577 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run model inference: 196
+2024-09-17 15:23:57.237 16534-16561 mali_winsys             org....lite.examples.classification  E  Unrecognised Android chroma siting range: [2, 2]. Applying default
+2024-09-17 15:23:57.300 16534-16561 mali_winsys             org....lite.examples.classification  E  Unrecognised Android chroma siting range: [2, 2]. Applying default
+2024-09-17 15:23:57.352 16534-16561 mali_winsys             org....lite.examples.classification  E  Unrecognised Android chroma siting range: [2, 2]. Applying default
+2024-09-17 15:23:57.419 16534-16561 mali_winsys             org....lite.examples.classification  E  Unrecognised Android chroma siting range: [2, 2]. Applying default
+2024-09-17 15:23:57.528 16534-16577 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run Faiss Search: 350
+2024-09-17 15:23:57.531 16534-16577 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run Post Process: 3
+2024-09-17 15:23:59.461 16534-16534 Choreographer           org....lite.examples.classification  I  Skipped 85 frames!  The application may be doing too much work on its main thread.
+2024-09-17 15:23:59.498 16534-16577 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to load the image: 29
+2024-09-17 15:23:59.504 16534-16549 OpenGLRenderer          org....lite.examples.classification  I  Davey! duration=1441ms; Flags=0, FrameTimelineVsyncId=465841, IntendedVsync=11391131545885, Vsync=11392547911935, InputEventId=0, HandleInputStart=11392556401659, AnimationStart=11392556412044, PerformTraversalsStart=11392557185813, DrawStart=11392557707044, FrameDeadline=11391164875681, FrameInterval=11392555238121, FrameStartTime=16663130, SyncQueued=11392558261851, SyncStart=11392558510813, IssueDrawCommandsStart=11392559050659, SwapBuffers=11392566130967, FrameCompleted=11392573145313, DequeueBufferDuration=79731, QueueBufferDuration=1408538, GpuCompleted=11392573145313, SwapBuffersCompleted=11392570982044, DisplayPresentTime=0, CommandSubmissionCompleted=11392566130967,
+2024-09-17 15:23:59.759 16534-16577 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run model inference: 261
+2024-09-17 15:24:00.095 16534-16577 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run Faiss Search: 336
+2024-09-17 15:24:00.096 16534-16577 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run Post Process: 1
+2024-09-17 15:24:02.016 16534-16534 Choreographer           org....lite.examples.classification  I  Skipped 83 frames!  The application may be doing too much work on its main thread.
+2024-09-17 15:24:02.047 16534-16577 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to load the image: 24
+2024-09-17 15:24:02.053 16534-16549 OpenGLRenderer          org....lite.examples.classification  I  Davey! duration=1404ms; Flags=0, FrameTimelineVsyncId=466431, IntendedVsync=11393714528134, Vsync=11395097321082, InputEventId=0, HandleInputStart=11395109977965, AnimationStart=11395109987580, PerformTraversalsStart=11395110255811, DrawStart=11395110352773, FrameDeadline=11393747854956, FrameInterval=11395109751311, FrameStartTime=16660156, SyncQueued=11395110709388, SyncStart=11395110851927, IssueDrawCommandsStart=11395111271119, SwapBuffers=11395114402273, FrameCompleted=11395118871080, DequeueBufferDuration=65885, QueueBufferDuration=1091462, GpuCompleted=11395117037042, SwapBuffersCompleted=11395118871080, DisplayPresentTime=11390281725045, CommandSubmissionCompleted=11395114402273,
+2024-09-17 15:24:02.222 16534-16577 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run model inference: 175
+2024-09-17 15:24:02.519 16534-16577 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run Faiss Search: 297
+2024-09-17 15:24:02.520 16534-16577 ClassifierWithSupport   org....lite.examples.classification  V  Timecost to run Post Process: 0
+2024-09-17 15:24:02.529 16534-16534 tensorflow              org....lite.examples.classification  D  CameraActivity: Top 3 Results:
+2024-09-17 15:24:02.530 16534-16534 tensorflow              org....lite.examples.classification  D  CameraActivity: 1. Palazzo Vecchio: 5.0
+2024-09-17 15:24:02.530 16534-16534 tensorflow              org....lite.examples.classification  D  CameraActivity: 2. Campanile Giotto: 11.0
+2024-09-17 15:24:02.531 16534-16534 tensorflow              org....lite.examples.classification  D  CameraActivity: 3. Cattedrale Duomo: 11.0

@@ -154,7 +154,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
 
         // FIXME
         // Cattedrale di Santa Maria del Fiore
-        //Bitmap bitmap_test6 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_santamariadelfiore_0093); // Front // OK
+        Bitmap bitmap_test6 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_santamariadelfiore_0093); // Front // OK
         //Bitmap bitmap_test7 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_santamariadelfiore_0095); // Side  // NOT OK
         //Bitmap bitmap_test8 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_santamariadelfiore_0096); // Back  // OK
 
@@ -197,7 +197,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
                             //Bitmap resizedBitmap = Bitmap.createScaledBitmap(rgbFrameBitmap, 384, 384, true);
 
                             // DEBUG
-                            Bitmap resizedBitmap = Bitmap.createScaledBitmap(bitmap_test16, 384, 384, true);
+                            Bitmap resizedBitmap = Bitmap.createScaledBitmap(bitmap_test6, 384, 384, true);
 
                             LOGGER.d("processImage: Bitmap resized to 384x384");
 
