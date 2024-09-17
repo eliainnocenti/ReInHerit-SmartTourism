@@ -3,37 +3,37 @@
 3    package="org.tensorflow.lite.examples.detection.tflite.test" >
 4
 5    <uses-sdk
-5-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest7801755486590665311.xml:5:5-74
+5-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5038970888932769738.xml:5:5-74
 6        android:minSdkVersion="21"
-6-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest7801755486590665311.xml:5:15-41
+6-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5038970888932769738.xml:5:15-41
 7        android:targetSdkVersion="29" />
-7-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest7801755486590665311.xml:5:42-71
+7-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5038970888932769738.xml:5:42-71
 8
 9    <instrumentation
-9-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest7801755486590665311.xml:11:5-15:100
+9-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5038970888932769738.xml:11:5-15:100
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest7801755486590665311.xml:11:22-76
+10-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5038970888932769738.xml:11:22-76
 11        android:functionalTest="false"
-11-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest7801755486590665311.xml:14:22-52
+11-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5038970888932769738.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest7801755486590665311.xml:13:22-53
+12-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5038970888932769738.xml:13:22-53
 13        android:label="Tests for org.tensorflow.lite.examples.detection.tflite.test"
-13-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest7801755486590665311.xml:15:22-98
+13-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5038970888932769738.xml:15:22-98
 14        android:targetPackage="org.tensorflow.lite.examples.detection.tflite.test" />
-14-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest7801755486590665311.xml:12:22-96
+14-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5038970888932769738.xml:12:22-96
 15
 16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 19
 20    <application
-20-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest7801755486590665311.xml:7:5-9:19
+20-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5038970888932769738.xml:7:5-9:19
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.0.0] /Users/eliainnocenti/.gradle/caches/transforms-3/db5db1672b32c25268ea83a91d385854/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
 22        android:debuggable="true" >
 23        <uses-library android:name="android.test.runner" />
-23-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest7801755486590665311.xml:8:9-60
-23-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest7801755486590665311.xml:8:23-57
+23-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5038970888932769738.xml:8:9-60
+23-->/Users/eliainnocenti/Documents/Projects/AndroidStudio/ReInHerit-SmartTourism/lib_task_api/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5038970888932769738.xml:8:23-57
 24    </application>
 25
 26</manifest>
