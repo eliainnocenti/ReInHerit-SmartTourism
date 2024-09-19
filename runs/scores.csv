@@ -1,0 +1,4 @@
+Image_ID,True_Monument,OD_Top1,OD_Score1,OD_Top2,OD_Score2,OD_Top3,OD_Score3,IR_Top1,IR_Score1,IR_Top2,IR_Score2,IR_Top3,IR_Score3
+florence_palazzovecchio_0090.jpg,Palazzo Vecchio,Palazzo Vecchio,0.87943184,Palazzo Vecchio,0.7816907,Palazzo Vecchio,0.7374307,Palazzo Vecchio,5.0,Campanile di Giotto,11.0,Cattedrale di Santa Maria del Fiore,11.0
+florence_battisterosangiovanni_0097.jpg,Battistero di San Giovanni,Battistero di San Giovanni,0.7610414,Battistero di San Giovanni,0.7059581,Battistero di San Giovanni,0.6268426,Battistero di San Giovanni,8.0,Loggia del Bigallo,10.0,Cattedrale di Santa Maria del Fiore,10.0
+florence_santamariadelfiore_0093.jpg,Cattedrale di Santa Maria del Fiore,Cattedrale di Santa Maria del Fiore,0.55458343,Cattedrale di Santa Maria del Fiore,0.54265267,Cattedrale di Santa Maria del Fiore,0.53936327,Cattedrale di Santa Maria del Fiore,5.0,Palazzo Vecchio,11.0,Battistero di San Giovanni,11.0

@@ -154,7 +154,9 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
 
         // FIXME
         // Cattedrale di Santa Maria del Fiore
-        Bitmap bitmap_test6 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_santamariadelfiore_0093); // Front // OK
+        //Bitmap bitmap_test6 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_santamariadelfiore_0093); // Front // OK
+        //Bitmap bitmap_test6_1 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_santamariadelfiore_0093_cropped);
+        //Bitmap bitmap_test6_2 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_santamariadelfiore_0093_perspective);
         //Bitmap bitmap_test7 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_santamariadelfiore_0095); // Side  // NOT OK
         //Bitmap bitmap_test8 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_santamariadelfiore_0096); // Back  // OK
 
@@ -162,6 +164,8 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
         // Battistero di San Giovanni
         //Bitmap bitmap_test9 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_battisterosangiovanni_0090);  // NOT OK
         //Bitmap bitmap_test10 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_battisterosangiovanni_0097); // OK 0.7
+        //Bitmap bitmap_test10_1 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_battisterosangiovanni_0097_cropped);
+        //Bitmap bitmap_test10_2 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_battisterosangiovanni_0097_perspective);
 
         // FIXME
         // Campanile di Giotto
@@ -172,8 +176,18 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
         // FIXME
         // Palazzo Vecchio
         //Bitmap bitmap_test14 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_palazzovecchio_0090); // OK
+        //Bitmap bitmap_test14_1 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_palazzovecchio_0090_cropped);
+        //Bitmap bitmap_test14_2 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_palazzovecchio_0090_perspective);
         //Bitmap bitmap_test15 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_palazzovecchio_0094); // NOT OK
         //Bitmap bitmap_test16 = BitmapFactory.decodeResource(getResources(), R.drawable.florence_palazzovecchio_0095); // NOT OK
+
+        // FIXME
+        // Black Image
+        //Bitmap bitmap_test17 = BitmapFactory.decodeResource(getResources(), R.drawable.nero);
+
+        // FIXME
+        // Paris
+        Bitmap bitmap_test18 = BitmapFactory.decodeResource(getResources(), R.drawable.pantheon);
 
         runInBackground(
                 new Runnable() {
@@ -197,7 +211,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
                             //Bitmap resizedBitmap = Bitmap.createScaledBitmap(rgbFrameBitmap, 384, 384, true);
 
                             // DEBUG
-                            Bitmap resizedBitmap = Bitmap.createScaledBitmap(bitmap_test6, 384, 384, true);
+                            Bitmap resizedBitmap = Bitmap.createScaledBitmap(bitmap_test18, 384, 384, true);
 
                             LOGGER.d("processImage: Bitmap resized to 384x384");
 
